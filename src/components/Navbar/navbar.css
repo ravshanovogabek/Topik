@@ -1,0 +1,101 @@
+/* General styling for the navbar */
+.navbar {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.1));
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 5px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+/* Navbar logo and links container */
+.left-side {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+}
+
+.logo {
+  width: 200px; /* Adjust the size as needed */
+  height: auto;
+  transition: transform 0.3s ease;
+  margin-bottom: 5rem;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Styling for the span text */
+
+
+/* Styling for the nav links */
+.nav_links {
+  display: flex;
+  gap: 1px;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.nav_links a {
+  color: #007bff; /* Beautiful blue color */
+  text-decoration: none;
+  font-weight: 700; /* Bold text */
+  font-size: 18px; /* Increased font size */
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav_links a:hover {
+  color: #0056b3; /* Darker blue for hover effect */
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+/* Contact info styling */
+.contact-info {
+  display: flex;
+  flex-direction: column; /* Stack phone number and text vertically */
+  align-items: flex-end;
+  gap: 4px; /* Space between phone number and text */
+  margin-left: auto;
+  margin-bottom: 7rem; /* Pushes contact info to the right */
+}
+
+.phone-number {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.phone-number:hover {
+  color: #007bff;
+}
+
+.contact-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .nav_links {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    width: 150px; /* Adjust size for smaller screens */
+  }
+  .contact-info {
+    align-items: flex-start;
+  }
+}
