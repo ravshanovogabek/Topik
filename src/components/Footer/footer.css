@@ -1,5 +1,5 @@
 .footer {
-  background-color: #212121;
+  background-color: #212121; 
   color: white;
   padding: 10px 20px;
 }
@@ -33,14 +33,31 @@
 .footer-social {
   display: flex;
   gap: 15px;
+  align-items: center;
 }
 
 .footer-social-icon {
-  color: white;
+  color: #ffffff; /* Default color for icons */
   font-size: 2rem;
   transition: color 0.3s;
 }
 
 .footer-social-icon:hover {
-  color: #00bcd4;
+  color: #00bcd4; /* Color on hover */
+}
+
+.footer-social-icon.fa-phone {
+  color: #4CAF50; /* Green for phone icon */
+}
+
+.footer-social-icon.fa-telegram {
+  color: #0088cc; /* Blue for Telegram icon */
+}
+
+.footer-social-icon.fa-instagram {
+  color: #e4405f; /* Pink for Instagram icon */
+}
+
+.footer-social-icon.fa-youtube {
+  color: #FF0000; /* Red for YouTube icon */
 }

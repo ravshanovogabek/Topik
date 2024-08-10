@@ -12,7 +12,7 @@ const Register = ({ image, title, duration, description, price }) => (
       <p className="register-description">{description}</p>
     </div>
     <div className="register-footer">
-      <a href="#" className="register-button">Ro'yxatdan O'tish</a>
+      <a href="#faq" className="register-button">Ro'yxatdan O'tish</a>
       <span className="register-price">{price}</span>
     </div>
   </section>

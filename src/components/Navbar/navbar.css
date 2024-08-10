@@ -3,11 +3,13 @@
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.1));
   border-bottom: 1px solid #eaeaea;
   padding-bottom: 5px 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   transition: background 0.3s ease;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 8rem;
+  box-shadow: 0 4px 8px rgba(7, 243, 74, 0.763);
   
 }
 
@@ -17,6 +19,7 @@
   align-items: center;
   gap: 16px;
   flex: 1;
+  margin-top: 60px;
 }
 
 .logo {
@@ -63,7 +66,8 @@
   align-items: flex-end;
   gap: 4px; /* Space between phone number and text */
   margin-left: auto;
-  margin-bottom: 7rem; /* Pushes contact info to the right */
+  margin-bottom: 7rem;
+  margin-top: 70px; /* Pushes contact info to the right */
 }
 
 .phone-number {

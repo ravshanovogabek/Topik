@@ -34,7 +34,7 @@ const Grants = () => (
         <div className="cta-text">
           <h3>TOPIK academy consulting jamoasi sizga universitet tanlash, visa olish va grant yutishingizda yaqindan ko’maklashadi</h3>
           <p>Ko’proq ma’lumot olish uchun <br /> bepul konsultatsiyaga yoziling!</p>
-          <a href="#" className="cta-button">Ariza Qoldirish</a>
+          <a href="#faq" className="cta-button">Ariza Qoldirish</a>
         </div>
          <div className="gallery">
         {/*<div className="gallery-item">
